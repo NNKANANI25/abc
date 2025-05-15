@@ -13,11 +13,11 @@ int main() {
 
     do {
         printf("\nMenu:\n");
-        printf("1. Addition\n");
-        printf("2. Subtraction\n");
-        printf("3. Multiplication\n");
-        printf("4. Division\n");
-        printf("5. Modulus\n");
+        printf("1. +\n");
+        printf("2. -\n");
+        printf("3. *\n");
+        printf("4. /\n");
+        printf("5.%\n");
         printf("6. Exit\n");
         printf("Enter your choice: ");
         scanf(" %c", &choice);
@@ -68,7 +68,7 @@ int main() {
     return 0;
 }
 
-// Function definitions
+
 float add(float num1, float num2) {
     return num1 + num2;
 }
@@ -91,3 +91,63 @@ float divide(float num1, float num2) {
 float modulus(int num1, int num2){
      return num1 % num2;
 }
+/*OUTPUT
+
+Menu:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Exit
+Enter your choice: 2
+Enter two numbers: 5
+3
+Result: 2.00
+
+Menu:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Exit
+Enter your choice: 3
+Enter two numbers: 5
+3
+Result: 15.00
+
+Menu:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Exit
+Enter your choice: 4
+Enter two numbers: 5
+3
+Result: 1.67
+
+Menu:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Exit
+Enter your choice: 5
+Enter two integers: 5
+3
+Result: 2.00
+
+Menu:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Exit
+Enter your choice: 6
+Exiting program...
+*/
